@@ -53,6 +53,6 @@ p {
     font: var(--fs-md) var(--fw-md)/1.5 var(--ff);
 }
 
-span {
+/* span {
     font: var(--fs) var(--fw)/1.5 var(--ff);
-}
+} */
