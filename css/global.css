@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* Cores de Marca */
+    --snitap-sun: #FFCD1E;
+    --snitap-sky-mid: #06B6D4;
+    --snitap-sky-light: #67E8F9;
+    --snitap-joy-mid: #DB2777;
+    --snitap-joy-light: #F472B6;
+    --snitap-leaf-mid: #16A34A;
+
+    --text: #000000;
+    --highlights: #000000;
+    --background: #FAFAFA;
+
+    /* Fontes */
+    --ff-main: 'Syne', sans-serif;
+    --ff: 'Montserrat', sans-serif;
+
+    /* Peso de Fontes */
+    --fs-bold: 700;
+    --fs-md: 500;
+    --fs: 400;
+
+    /* Tamanho de Fontes */
+    --fw-bold: 4rem;
+    --fw-md: 1rem;
+    --fw: 0.875rem;
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1 {
+    font: var(--fs-bold) var(--fw-bold)/1.25 var(--ff-main);
+}
+
+h2 {
+    font: var(--fs-bold) 2.5rem/1.20 var(--ff-main);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    font: var(--fs-md) var(--fw-md)/1.5 var(--ff);
+}
+
+span {
+    font: var(--fs) var(--fw)/1.5 var(--ff);
+}
