@@ -34,6 +34,7 @@
 
 body {
     background-color: var(--background);
+    zoom: .5;
 }
 
 h1 {
