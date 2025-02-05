@@ -22,14 +22,14 @@
     --ff: 'Montserrat', sans-serif;
 
     /* Peso de Fontes */
-    --fs-bold: 700;
-    --fs-md: 500;
-    --fs: 400;
+    --fw-bold: 700;
+    --fw-md: 500;
+    --fw: 400;
 
     /* Tamanho de Fontes */
-    --fw-bold: 4rem;
-    --fw-md: 1rem;
-    --fw: 0.875rem;
+    --fs-bold: 4rem;
+    --fs-md: 1rem;
+    --fs: 0.875rem;
 }
 
 body {
@@ -37,11 +37,11 @@ body {
 }
 
 h1 {
-    font: var(--fs-bold) var(--fw-bold)/1.25 var(--ff-main);
+    font: var(--fw-bold) var(--fs-bold)/1.25 var(--ff-main);
 }
 
 h2 {
-    font: var(--fs-bold) 2.5rem/1.20 var(--ff-main);
+    font: var(--fw-bold) 2.5rem/1.20 var(--ff-main);
 }
 
 a {
@@ -50,9 +50,6 @@ a {
 }
 
 p {
-    font: var(--fs-md) var(--fw-md)/1.5 var(--ff);
+    font: var(--fw-md) var(--fs-md)/1.5 var(--ff);
 }
 
-/* span {
-    font: var(--fs) var(--fw)/1.5 var(--ff);
-} */
