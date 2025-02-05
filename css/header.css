@@ -41,8 +41,7 @@
     }
 }
 
-.hero > div:nth-child(2),
-.hero > div:nth-child(2):hover {
+.hero > div:nth-child(2) {
     display: block;
     width: 100%;
     max-width: 30.5rem;
