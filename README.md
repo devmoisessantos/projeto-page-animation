@@ -47,7 +47,7 @@ Este projeto é uma página web simples com foco em **animações**, desenvolvid
 
 ## 🌍 Deploy
 
-O projeto está disponível online: **[AQUI](#)**
+O projeto está disponível online: **[AQUI](https://snitap-app.vercel.app/)**
 
 ---
 
